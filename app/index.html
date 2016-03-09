@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>tiy_03_08_loading button</title>
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+
+    <h1>Hello World!</h1>
+    <div class="content-container">
+
+    </div>
+
+    <button class="submission">Submit</button>
+
+    <script id="profile-page" type="text/x-handlebars-template">
+      <ul id="planet-listing">
+        <li class="planet-names">
+          {{this.name}} <!-- if my object doesn't have a name, use this in order to dive down to get what I need -->
+        </li>
+      </ul>
+    </script>
+
+    <script src="js/bundle.js"></script>
+  </body>
+</html>
